@@ -1,0 +1,67 @@
+:root {
+  
+  --color-ink: #0b1320;          
+  --color-main: #0b1320;         
+  --color-main-2: #ff7a18;       
+  --color-accent: #ff7a18;       
+  --color-accent-2: #f2600a;     
+  --color-base: #fffaf4;         
+  --color-paper: #ffffff;        
+  --color-beige: #ffd8a8;        
+  --color-beige-soft: #ffeedd;   
+  --color-orange-soft: #ffe2c7;  
+  --color-sky-1: #e6edf6;        
+  --color-sky-2: #fdf3e8;        
+  --color-cloud: #ffffff;
+  --color-sun: #ffc27a;
+  --color-pale: #fff1e2;         
+  --color-line: #e7d3bd;         
+  --color-outline: rgb(255 122 24 / 0.32);   
+  --color-outline-navy: rgb(11 19 32 / 0.12);
+  --color-on-dark: #ffffff;
+  --color-on-dark-line: rgb(255 255 255 / 0.7);
+  --color-error: #ff7a18;        
+  --color-shadow: rgb(11 19 32 / 0.14);
+  --color-mk: rgb(255 122 24 / 0.28);        
+
+  
+  --bg-dark: linear-gradient(160deg, #1a2638 0%, var(--color-ink) 100%);
+  --bg-accent: linear-gradient(90deg, var(--color-accent) 0%, var(--color-accent-2) 100%);
+  --bg-sky: linear-gradient(180deg, var(--color-sky-1) 0%, var(--color-sky-2) 78%);
+
+  
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+  --font-head: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
+  --font-en: "Outfit", "Zen Kaku Gothic New", sans-serif;
+  --fs-min: 13px;
+  --fs-base: clamp(var(--fs-min), min(2.26dvh, 3.85vw), 15px);
+  --fs-ui: max(var(--fs-min), 13px);
+  --fs-input: 16px;
+  --fs-head: 1.5em;              
+  --fw-body: 500;                
+  --ls-body: 0.05em;             
+  --ls-head: 0.15em;             
+  --lh-body: 1.95;               
+  --lh-tight: 1.75;              
+  --lh-head: 1.5;
+
+  
+  --col: 480px;
+  --header-h: 56px;
+  --gutter: 22px;
+  --next-h: 0px;
+  --radius-pill: 999px;
+  --radius-s: 8px;
+  --radius-m: 16px;              
+  --shadow-soft: 0 6px 18px 0 var(--color-shadow);
+  --shadow-column: 0 0 24px 0 var(--color-shadow);
+  --reel-h: clamp(72px, 14dvh, 120px);
+  --reel-pxs: 30;
+  --bigline-pxs: 38;             
+
+  
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --rise: 16px;
+  --dur-in: 500ms;
+  --dur-hover: 300ms;
+}
