@@ -23,6 +23,7 @@
   --color-error: #ff7a18;        
   --color-shadow: rgb(11 19 32 / 0.14);
   --color-mk: rgb(255 122 24 / 0.28);        
+  --color-line-icon: #b49a82;                
 
   
   --bg-dark: linear-gradient(160deg, #1a2638 0%, var(--color-ink) 100%);
@@ -33,6 +34,7 @@
   --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
   --font-head: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
   --font-en: "Outfit", "Zen Kaku Gothic New", sans-serif;
+  --font-wide: "Lexend Zetta", "Outfit", sans-serif;   
   --fs-min: 13px;
   --fs-base: clamp(var(--fs-min), min(2.26dvh, 3.85vw), 15px);
   --fs-ui: max(var(--fs-min), 13px);
