@@ -60,13 +60,14 @@
   --header-h: 56px;
   --gutter: 22px;
   --next-h: 0px;
+  --gap-y: clamp(0.8em, 2.6dvh, 2em);   
   --pad-y: 1.2em;                
   --radius-pill: 999px;
   --radius-s: 8px;
   --radius-m: 16px;              
   --shadow-soft: 0 6px 18px 0 var(--color-shadow);
   --shadow-column: 0 0 24px 0 var(--color-shadow);
-  --reel-h: clamp(72px, 14dvh, 120px);
+  --reel-h: clamp(72px, 17dvh, 220px);
   --reel-pxs: 30;
   --bigline-pxs: 38;             
 
