@@ -43,24 +43,27 @@
   --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
   --font-head: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
   --font-en: "Outfit", "Zen Kaku Gothic New", sans-serif;
+  --font-wide: "Lexend Zetta", "Outfit", sans-serif;   
   --fs-min: 13px;
   --fs-base: clamp(var(--fs-min), min(2.26dvh, 3.85vw, 18.5px), 18.5px);   
   --fs-ui: max(var(--fs-min), 13px);
   --fs-input: 16px;
-  --fs-head: 1.5em;              
+  --fs-head: 1.4em;              
+  --fs-head-s: 1.24em;           
   --fw-body: 500;                
   --ls-body: 0.05em;             
-  --ls-head: 0.2em;              
-  --lh-body: 2.1;                
-  --lh-tight: 1.85;              
-  --lh-head: 1.5;
+  --ls-head: 0.16em;             
+  --lh-body: 1.9;                
+  --lh-head: 1.55;               
 
   
   --col: 480px;
   --header-h: 56px;
   --gutter: 22px;
   --next-h: 0px;
-  --gap-y: clamp(0.8em, 2.6dvh, 2em);   
+  --sp-1: 0.45em;                        
+  --sp-p: 0.75em;                        
+  --sp-g: clamp(0.9em, 2.6dvh, 2.4em);   
   --pad-y: 1.2em;                
   --radius-pill: 999px;
   --radius-s: 8px;
@@ -77,5 +80,5 @@
   --dur-in: 500ms;
   --dur-hover: 300ms;
 }
-@media (max-height: 600px) { :root { --pad-y: 0.7em; } }
+@media (max-height: 600px) { :root { --pad-y: 0.7em; --sp-p: 0.5em; --sp-g: 0.7em; } }
 @media (min-width: 960px) { :root { --gutter: calc(var(--fs-base) * 1.5); } }
