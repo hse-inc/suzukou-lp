@@ -24,6 +24,15 @@
   --color-shadow: rgb(11 19 32 / 0.14);
   --color-mk: rgb(255 122 24 / 0.28);        
   --color-line-icon: #b49a82;                
+  --color-accent-deep: #d36c2d;              
+  --color-pink: #f8ddce;                     
+  --color-navy-2: #18243a;                   
+  --color-navy-3: #24324a;                   
+  --color-on-dark-soft: rgb(255 255 255 / 0.86);   
+  --color-veil-0: rgb(11 19 32 / 0);
+  --color-veil-navy: rgb(11 19 32 / 0.72);   
+  --color-tag-2: #60432a;                    
+  --color-tag-3: #aa9a85;
 
   
   --bg-dark: linear-gradient(160deg, #1a2638 0%, var(--color-ink) 100%);
@@ -34,17 +43,16 @@
   --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
   --font-head: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
   --font-en: "Outfit", "Zen Kaku Gothic New", sans-serif;
-  --font-wide: "Lexend Zetta", "Outfit", sans-serif;   
   --fs-min: 13px;
-  --fs-base: clamp(var(--fs-min), min(2.26dvh, 3.85vw), 15px);
+  --fs-base: clamp(var(--fs-min), min(2.26dvh, 3.85vw, 18.5px), 18.5px);   
   --fs-ui: max(var(--fs-min), 13px);
   --fs-input: 16px;
   --fs-head: 1.5em;              
   --fw-body: 500;                
   --ls-body: 0.05em;             
-  --ls-head: 0.15em;             
-  --lh-body: 1.95;               
-  --lh-tight: 1.75;              
+  --ls-head: 0.2em;              
+  --lh-body: 2.1;                
+  --lh-tight: 1.85;              
   --lh-head: 1.5;
 
   
@@ -52,6 +60,7 @@
   --header-h: 56px;
   --gutter: 22px;
   --next-h: 0px;
+  --pad-y: 1.2em;                
   --radius-pill: 999px;
   --radius-s: 8px;
   --radius-m: 16px;              
@@ -67,3 +76,5 @@
   --dur-in: 500ms;
   --dur-hover: 300ms;
 }
+@media (max-height: 600px) { :root { --pad-y: 0.7em; } }
+@media (min-width: 960px) { :root { --gutter: calc(var(--fs-base) * 1.5); } }

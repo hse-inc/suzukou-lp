@@ -55,7 +55,7 @@ img, video { display: block; max-width: 100%; }
 .page__inner {
   position: relative; z-index: 2; height: 100%;
   display: flex; flex-direction: column; justify-content: center; gap: 1.1em;
-  padding: calc(var(--header-h) + 1em) var(--gutter) calc(var(--next-h) + 2em);
+  padding: calc(var(--header-h) + var(--pad-y)) var(--gutter) var(--pad-y);   
 }
 .ln { display: block; }
 .label-en { font-family: var(--font-en); font-weight: 500; font-size: var(--fs-ui); line-height: 1; letter-spacing: 0.16em; color: var(--color-main-2); }
